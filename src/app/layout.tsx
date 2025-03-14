@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className="antialiased"
+        className="bg-[#212A31] text-white font-sans antialiased"
       >
         <Navbar /> {/* Add Navbar here */}
         <main className="pt-16">{children}</main> {/* Add padding for navbar */}

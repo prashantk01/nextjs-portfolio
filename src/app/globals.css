@@ -19,8 +19,14 @@
   }
 }
 
-body {
-  background: var(--background);
+/* body {
+  background: var(--background); #1E252B 212A31
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+} */
+
+body {
+  background-color: #181d20 !important;
+  color: white !important;
+  font-family: sans-serif;
 }
