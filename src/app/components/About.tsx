@@ -5,7 +5,7 @@ const About: React.FC = () => {
     <section id="about" className="py-12 max-w-4xl mx-auto text-center">
       <h2 className="text-3xl font-bold mb-4">About Me</h2>
       <p className="text-lg text-gray-700 mb-4">
-        Hi, I'm Prashant! I specialize in Layer 1 (Physical Layer) development in wireless networks,
+        Hi, I&apos;m Prashant! I specialize in Layer 1 (Physical Layer) development in wireless networks,
         particularly focused on PRACH. I have experience in telecom protocols such as UDP, TCP, and ORAN,
         and have worked on projects like Massive MIMO, Outdoor Small Cell, Indoor Small Cell, and IMG CA.
       </p>

@@ -41,7 +41,7 @@ const Experience: React.FC = () => {
             <li>Provided books, clothes, and study sessions for underprivileged children.</li>
             <li>Conducted government surveys in rural villages for social welfare programs.</li>
             <li>Organized a Nukkad Natak (street play) on Environment Day, spreading awareness about conservation.</li>
-            <li>Engaged with media to amplify the campaign&apos; reach, leading to newspaper coverage.</li>
+            <li>Engaged with media to amplify the campaign&apos;s reach, leading to newspaper coverage.</li>
           </ul>
         </div>
       </div>
