@@ -12,25 +12,25 @@ const projects = [
     title: "Task Manager App",
     description:
       "A full-stack task management app with React, Node.js, Express, and MongoDB, enabling users to create and manage tasks. Leveraged Jest for robust unit testing",
-    link: "https://github.com/prashantk01/task-manager",
+    link: "https://github.com/prashantk01/task-manager-nodejs",
   },
   {
     title: "Calorie Estimation App",
     description:
       "An AI-powered app that estimates calorie intake from food images using deep learning and computer vision techniques. Flask server is used to deploy ML Classifier",
-    link: "https://github.com/prashantk01/calorie-estimation",
+    link: "https://github.com/prashantk01/Calorie-estimation-from-food-images",
   },
   {
     title: "Human Facial Expression Detection",
     description:
       "A deep learning model that classifies human facial expressions into emotions like happy, sad, surprise, neutral, fear, disgust and angry using CNNs.",
-    link: "https://github.com/prashantk01/facial-expression-detection",
+    link: "https://github.com/prashantk01/Facial_Emotion_Recognition",
   },
   {
     title: "Social Media Backend (MERN)",
     description:
       "Backend APIs for a social media platform built with Express.js, Node.js, and MongoDB, featuring authentication, implementing RESTful APIs for core functionalities, CRUD operations",
-    link: "https://github.com/prashantk01/social-media-backend",
+    link: "https://github.com/prashantk01/social-media-platform-backend",
   },
 ];
 
