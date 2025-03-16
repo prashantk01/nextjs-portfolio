@@ -1,38 +1,60 @@
-=======
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Next.js Firebase Portfolio
 
-## Getting Started
+📌 Overview
 
-First, run the development server:
+This is a personal portfolio website built using Next.js, TypeScript, and Tailwind CSS, deployed on Vercel. It showcases my experience, projects, skills, and technical profiles. The project also includes Firebase for backend functionality.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Next.js 14 with App Router for better performance and SEO.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+TypeScript for type safety.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Tailwind CSS for modern UI styling.
 
-## Learn More
+Responsive design for mobile and desktop views.
 
-To learn more about Next.js, take a look at the following resources:
+SEO Optimized (Meta tags, proper heading structures).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Dark Mode UI with the primary color #212A31.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Optimized Performance for fast loading and smooth experience.
 
-## Deploy on Vercel
+🛠️ Installation & Setup
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1️⃣ Clone the Repository
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
->>>>>>> 0c096ff (Initial commit from Create Next App)
+git clone https://github.com/prashantk01/nextjs-portfolio.git
+cd nextjs-portfolio
+
+2️⃣ Install Dependencies
+
+yarn install  # or npm install
+
+4️⃣ Run the Development Server
+
+yarn dev  # or npm run dev
+
+Your portfolio will be live at http://localhost:3000.
+
+
+⚡ Performance Optimizations
+
+✅ Lazy Loading Images using next/image to improve Largest Contentful Paint (LCP).
+
+✅ Code Splitting with next/dynamic for components that don’t need immediate loading.
+
+✅ Preloading Fonts with next/font.
+
+🌎 Deployment on Vercel
+
+1️⃣ Install Vercel CLI (If not installed)
+
+yarn global add vercel  # or npm install -g vercel
+
+2️⃣ Deploy  
+
+vercel deploy  (vercel --prod)
+
+Your portfolio will be live at https://your-portfolio.vercel.app
+
