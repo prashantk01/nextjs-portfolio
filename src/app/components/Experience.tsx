@@ -62,6 +62,7 @@ const Experience = () => {
                 alt={exp.company}
                 width={64}
                 height={64}
+                priority={true}
                 className="rounded-full"
               />
             </div>
