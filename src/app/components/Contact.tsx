@@ -14,7 +14,9 @@ const Contact: React.FC = () => {
       id="contact"
       className="py-10 max-w-4xl mx-auto text-center text-gray-300"
     >
-      <h2 className="text-3xl font-bold mt-12 mb-4">Technical Profiles</h2>
+      <h2 className="text-2xl font-bold mt-12 mb-4 uppercase">
+        Technical Profiles
+      </h2>
       <p className="text-lg mb-6">Connect with me on these platforms.</p>
 
       <div className="flex justify-center space-x-6 text-2xl">
@@ -47,7 +49,7 @@ const Contact: React.FC = () => {
         </a>
       </div>
 
-      <h2 className="text-3xl font-bold mb-4 mt-12">Contact</h2>
+      <h2 className="text-2xl font-bold mb-4 mt-12 uppercase">Contact</h2>
       <p className="text-lg mb-6">
         Feel free to reach out to me via email or check my resume.
       </p>

@@ -5,10 +5,12 @@ import Education from "./components/Education";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import AchievementsHobbies from "./components/AchievementsHobbies";
+import Hero from "./components/Hero";
 
 const Home: React.FC = () => {
   return (
     <main className="flex flex-col items-center justify-center px-4">
+      <Hero />
       <About />
       <Education />
       <Skills />

@@ -9,13 +9,16 @@ const experiences = [
     duration: "June 2021 – Present",
     logo: "/logos/logo_jio.png",
     details: [
-      "5G NR Physical Layer R&D, optimizing PRACH receiver algorithms for better signal detection and synchronization.",
-      "Developed noise and interference cancellation features to improve receiver sensitivity.",
-      "Worked on carrier aggregation to enhance bandwidth utilization and spectral efficiency.",
       "Implemented multi-user PRACH detection, enhancing resource allocation and reducing latency.",
       "Integrated AI/ML techniques for PRACH detection, leveraging deep learning models (CNN/FNN).",
-      "Analyzed low-PHY logs, ORAN fronthaul logs, and performed PRACH signal processing in MATLAB.",
-      "Worked across L1-L2 teams, supporting feature development, troubleshooting, and enhancing NR gNodeB, CCDU, MRU, and LRU functionalities.",
+      "5G NR Physical Layer R&D, optimizing PRACH receiver algorithms for better signal detection and synchronization.",
+      "Built and validated complete uplink PHY processing chains (PRACH, PUSCH, and other channels) through MATLAB simulations (5G Toolbox, Wireless, Deep Learning), AWGN/TDL channel modeling, lab verification, and live field deployments.",
+      "Used C++, Python, and MATLAB in HPC environments to develop highly optimized and production-ready telecom software components and solutions.",
+      "Performed in-depth analysis of low-level PHY logs, ORAN fronthaul captures, and MATLAB-based signal processing for performance validation and tuning.",
+      "Achieved a 3 dB gain in Noise and Interference Cancellation (NIC) algorithms for uplink PRACH channels, significantly improving signal robustness in challenging RF environments.",
+      "Led 5G NR Layer 1 PHY development focusing on uplink PRACH signal processing and real-time low-latency optimizations. Reduced PRACH processing latency from 3 milliseconds to 700 microseconds, enabling ultra-low-latency network operations in Integrated Macro gNodeB Carrier Aggregation (ImgCA).",
+      "Designed, trained, and deployed CNN / FNN AI models, unified ML model integrated into Layer 1 PHY modules, for PRACH detection and timing advance estimation. Generated MATLAB‐based datasets, training/validating models, and outperforming standard correlation‐based receivers under low‐SNR conditions.",
+      "Collaborated extensively with L1-L2 protocol stack teams to enhance NR gNodeB functionalities including CCDU, MRU, and LRU feature development and troubleshooting. Implemented and optimized carrier aggregation features to increase bandwidth efficiency and spectral usage for high-throughput uplink scenarios.",
     ],
   },
   {
@@ -49,7 +52,9 @@ const experiences = [
 const Experience = () => {
   return (
     <section id="experience" className="py-10 px-5 text-center">
-      <h2 className="text-3xl font-bold mb-6 text-white">Experience</h2>
+      <h2 className="text-2xl font-bold mb-6 text-white uppercase">
+        WORK EXPERIENCE
+      </h2>
       <div className="max-w-5xl mx-auto space-y-8 ">
         {experiences.map((exp, index) => (
           <div
@@ -73,7 +78,7 @@ const Experience = () => {
               <p className="text-gray-300 italic">
                 {exp.location} | {exp.duration}
               </p>
-              <ul className="list-disc list-inside mt-2 space-y-1 text-gray-300 leading-relaxeds">
+              <ul className="list-disc list-outside ml-2 mt-2 space-y-1 text-gray-300 leading-relaxeds w-full text-justify">
                 {exp.details.map((detail, i) => (
                   <li key={i}>{detail}</li>
                 ))}

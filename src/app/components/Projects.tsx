@@ -3,6 +3,25 @@ import { FaGithub } from "react-icons/fa";
 
 const projects = [
   {
+    title: "IMG CA FDD 700 MHz – Uplink PHY PRACH Chain Design & CA Enablement",
+    description:
+      "Optimized uplink PRACH signal processing pipeline in Integrated Macro gNodeB Carrier Aggregation project, reducing latency from 3 ms to 700 µs for ultra-low-latency 5G NR Layer 1 operations. Integrated CNN/FNN models for preamble detection and timing advance estimation, improving accuracy.",
+    link: "", // Internal/Confidential – No public repo
+  },
+  {
+    title:
+      "Macro gNodeB 32TR Massive MIMO – FlexRAN PRACH Uplink PHY Enhancement",
+    description:
+      "Enhanced NIC algorithms for uplink PRACH channels in 5G NR PHY, achieving a +3 dB gain in receiver robustness under challenging RF conditions using advanced C++ DSP techniques within HPC telecom environments.",
+    link: "", // Internal
+  },
+  {
+    title: "Unified AI Powered PRACH Detection & Timing Advance Estimation",
+    description:
+      "Designed, trained, and deployed unified deep learning models (CNN/FNN) for uplink PRACH detection and timing advance estimation in 5G gNodeB deployments, replacing multiple legacy algorithms and improving performance and maintainability.",
+    link: "", // Internal
+  },
+  {
     title: "Portfolio with Next.js, TypeScript & Firebase",
     description:
       "A personal portfolio built with Next.js, TypeScript TailwindCSS to showcase my skills, experience, education and projects. Integrated Firebase for backend services, vercel for deplyoment",
@@ -40,7 +59,7 @@ const Projects: React.FC = () => {
       id="projects"
       className="py-10 max-w-5xl mx-auto text-center  text-white"
     >
-      <h2 className="text-3xl font-bold mb-6">Projects</h2>
+      <h2 className="text-2xl font-bold mb-6 uppercase">PROJECTS</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
         {projects.map((project, index) => (
@@ -51,7 +70,9 @@ const Projects: React.FC = () => {
             <h3 className="text-xl font-semibold mb-2 text-blue-400">
               {project.title}
             </h3>
-            <p className="text-gray-200 mb-3">{project.description}</p>
+            <p className="text-gray-200 mb-3 w-full text-justify">
+              {project.description}
+            </p>
             <a
               href={project.link}
               target="_blank"

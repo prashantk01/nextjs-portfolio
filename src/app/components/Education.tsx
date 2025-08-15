@@ -3,7 +3,7 @@ import React from "react";
 const Education: React.FC = () => {
   return (
     <section id="education" className="py-10 max-w-4xl mx-auto text-center">
-      <h2 className="text-3xl font-semibold mb-4 text-center">Education</h2>
+      <h2 className="text-3xl font-semibold mb-4 text-center">EDUCATION</h2>
       <div className="text-base leading-relaxed space-y-2">
         <p className="mb-2 font-semibold">
           Bachelor of Technology (B.Tech) in Computer Science & Engineering
@@ -15,7 +15,8 @@ const Education: React.FC = () => {
         <p className="mb-2 text-gray-400">
           Relevant Coursework: Data Structures, Algorithm Design, Computer
           Architecture, Operating Systems, Wireless Communication, Signal
-          Processing, Machine Learning, Computer Networks
+          Processing, Artificial Intelligence & Machine Learning, Computer
+          Networks
         </p>
         <p className="mb-2 text-gray-400">CPI: 9.26</p>
         <br></br>
