@@ -51,6 +51,28 @@ const AchievementsHobbies: React.FC = () => {
           </ul>
         </div>
       </section>
+
+      {/* Writings & Publications Section */}
+      <section className="py-6 px-2 max-w-4xl mx-auto text-center bg-[#22313C] mt-8 rounded-2xl">
+        <h2 className="text-2xl font-bold mb-4 uppercase">
+          Writings & Publications
+        </h2>
+        <div className="text-lg text-gray-200 mb-3 text-left mx-auto max-w-4xl">
+          <ul className="list-disc list-outside ml-6 space-y-1 text-justify">
+            <li>
+              <a
+                href="https://medium.com/@prashantk01/understanding-prach-how-your-device-says-hello-to-the-network-5g-08c47d344efd"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400 underline hover:text-blue-300"
+              >
+                Understanding PRACH: How Your Device Says Hello to the Network
+                (5G)
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </section>
   );
 };
